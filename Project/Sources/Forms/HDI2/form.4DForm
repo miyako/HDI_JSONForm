@@ -1,0 +1,294 @@
+{
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"width": 980,
+	"height": 780,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onDoubleClick",
+		"onMenuSelect",
+		"onDataChange",
+		"onAfterEdit",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"TabControl": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 940,
+					"height": 740,
+					"dataSource": "TabControl",
+					"dataSourceTypeHint": "arrayText",
+					"action": "GotoPage",
+					"events": [
+						"onClick"
+					]
+				},
+				"varTxt": {
+					"type": "input",
+					"top": 70,
+					"left": 40,
+					"width": 900,
+					"height": 673,
+					"sizingX": "grow",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"varFormDescription": {
+					"type": "input",
+					"top": 179,
+					"left": 41,
+					"width": 425,
+					"height": 561,
+					"visibility": "hidden",
+					"focusable": false,
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		null,
+		{
+			"objects": {
+				"btnHelloWorld": {
+					"type": "button",
+					"top": 221,
+					"left": 622,
+					"width": 197,
+					"height": 21,
+					"sizingX": "move",
+					"tooltip": "Load the JSON form in a subform",
+					"text": "Load in subform",
+					"focusable": false,
+					"defaultButton": true,
+					"method": "ObjectMethods/btnHelloWorld.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"SubformHelloWorld": {
+					"type": "subform",
+					"top": 389,
+					"left": 540,
+					"width": 357,
+					"height": 218,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "undefined",
+					"enterableInList": false,
+					"deletableInList": false,
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "system"
+				},
+				"infoText": {
+					"type": "text",
+					"top": 303,
+					"left": 579,
+					"width": 99,
+					"height": 20,
+					"visibility": "hidden",
+					"stroke": "#009E00",
+					"fontFamily": "System Font",
+					"fontSize": 16,
+					"text": "text"
+				},
+				"infoLineButton": {
+					"type": "line",
+					"top": 332,
+					"left": 833,
+					"width": 33,
+					"height": 91,
+					"visibility": "hidden",
+					"startPoint": "bottomLeft"
+				},
+				"infoLineText": {
+					"type": "line",
+					"top": 332,
+					"left": 599,
+					"width": 14,
+					"height": 71,
+					"visibility": "hidden"
+				},
+				"infoButton": {
+					"type": "text",
+					"top": 303,
+					"left": 843,
+					"width": 81,
+					"height": 20,
+					"visibility": "hidden",
+					"stroke": "#009E60",
+					"fontFamily": "System Font",
+					"fontSize": 16,
+					"text": "button"
+				}
+			}
+		},
+		{
+			"objects": {
+				"varTitle": {
+					"type": "input",
+					"top": 221,
+					"left": 610,
+					"width": 255,
+					"height": 33,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"varSubTitle": {
+					"type": "input",
+					"top": 265,
+					"left": 610,
+					"width": 255,
+					"height": 49,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 349,
+					"left": 657,
+					"width": 150,
+					"height": 20,
+					"sizingX": "move",
+					"tooltip": "Open the JSON form  into a dialog",
+					"text": "Open dialog",
+					"focusable": false,
+					"defaultButton": true,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 221,
+					"left": 500,
+					"width": 100,
+					"height": 33,
+					"textAlign": "right",
+					"text": "title:"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 264,
+					"left": 500,
+					"width": 100,
+					"height": 33,
+					"textAlign": "right",
+					"text": "subTitle:"
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 432,
+					"left": 523,
+					"width": 403,
+					"height": 262,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/ConfirmDialog.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"btnOpenListForm": {
+					"type": "button",
+					"top": 227,
+					"left": 382,
+					"width": 200,
+					"height": 20,
+					"sizingX": "move",
+					"tooltip": "Open the JSON Form in a dialog",
+					"text": "Open dialog",
+					"focusable": false,
+					"defaultButton": true,
+					"method": "ObjectMethods/btnOpenListForm.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture5": {
+					"type": "picture",
+					"top": 267,
+					"left": 555,
+					"width": 361,
+					"height": 400,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/InputForm.png"
+				},
+				"Picture6": {
+					"type": "picture",
+					"top": 267,
+					"left": 76,
+					"width": 339,
+					"height": 400,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/OutputForm.png"
+				},
+				"btnOpenOutputJSON": {
+					"type": "button",
+					"top": 661,
+					"left": 130,
+					"width": 235,
+					"height": 21,
+					"tooltip": "Open the \"OutputForm.json\" file",
+					"text": "Open OutputForm.json file",
+					"focusable": false,
+					"method": "ObjectMethods/btnOpenOutputJSON.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"btnOpenInputJSON": {
+					"type": "button",
+					"top": 661,
+					"left": 633,
+					"width": 225,
+					"height": 21,
+					"tooltip": "Open the \"InputForm.json\" file",
+					"text": "Open InputForm.json file",
+					"focusable": false,
+					"method": "ObjectMethods/btnOpenInputJSON.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <file datatype="x-STR#" original="undefined" product-version="v16" source-language="en-US" target-language="ja">
+    <header>
+      <note/>
+    </header>
+    <body>
+
+        <!-- Work Area -->
+<group resname="[ProjectForm]">
+<group resname="HDI">
+<trans-unit id="1" resname="BtnDemo">
+<source>Demo</source>
+<target>スタート</target>
+</trans-unit>
+<trans-unit id="2" resname="TxtVersion">
+<source>{version} and above</source>
+<target>{version} 以降...</target>
+</trans-unit>
+<trans-unit id="3" resname="labelVersion">
+<source>Version:</source>
+<target>バージョン:</target>
+</trans-unit>
+<trans-unit id="4" resname="labelBlog">
+<source>Blog:</source>
+<target>Blog:</target>
+</trans-unit>
+<trans-unit id="5" resname="labelInfo">
+<source>Info:</source>
+<target>概要:</target>
+</trans-unit>
+<trans-unit id="6" resname="txtTitle">
+<source>• title •</source>
+<target>• title •</target>
+</trans-unit>
+<trans-unit id="7" resname="Text">
+<source>How do I…</source>
+<target>どうやって...</target>
+</trans-unit>
+<trans-unit id="8" resname="ErrorMainText">
+<source>Sorry, this "How do I" (HDI) example must
+be used with a newer version of 4D
+({version} and above)</source>
+<target>申し訳ありません。この"How do I..." (HDI) サンプルは、より新しいバージョンの4D（{version} 以降）で開く必要があります。</target>
+</trans-unit>
+<trans-unit id="9" resname="ErrorSubText">
+<source>Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+<target>このHDIをデザインモードで開かないでください。
+開いてしまった場合、フォームやメソッドが不完全になってしまう恐れがあります。</target>
+</trans-unit>
+</group>
+<group resname="HDI2">
+	<trans-unit id="1" resname="btnHelloWorld">
+	<source>Load in subform</source>
+	<target>サブフォームにロード</target>
+	</trans-unit>
+	<trans-unit id="2" resname="infoText">
+	<source>text</source>
+	<target>text</target>
+	</trans-unit>
+	<trans-unit id="3" resname="infoButton">
+	<source>button</source>
+	<target>button</target>
+	</trans-unit>
+	<trans-unit id="4" resname="Button1">
+	<source>Open dialog</source>
+	<target>ダイアログを開く</target>
+	</trans-unit>
+	<trans-unit id="5" resname="Text">
+	<source>title:</source>
+	<target>title:</target>
+	</trans-unit>
+	<trans-unit id="6" resname="Text1">
+	<source>subTitle:</source>
+	<target>subTitle:</target>
+	</trans-unit>
+	<trans-unit id="7" resname="btnOpenListForm">
+	<source>Open dialog</source>
+	<target>ダイアログを開く</target>
+	</trans-unit>
+	<trans-unit id="8" resname="btnOpenOutputJSON">
+	<source>Open OutputForm.json file</source>
+	<target>OutputForm.json ファイルを開く</target>
+	</trans-unit>
+	<trans-unit id="9" resname="btnOpenInputJSON">
+	<source>Open InputForm.json file</source>
+	<target>InputForm.json ファイルを開く</target>
+	</trans-unit>
+</group>
+</group>
+
+
+
+    </body>
+  </file>
+</xliff>
