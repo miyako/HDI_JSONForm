@@ -1,5 +1,5 @@
-C_LONGINT:C283($ref)
-
+//%attributes = {"invisible":true}
+var $ref : Integer
 var $json : Text
 $json:=File:C1566(Localized document path:C1105("Person.json"); fk platform path:K87:2).getText()
 

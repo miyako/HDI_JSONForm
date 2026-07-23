@@ -1,0 +1,48 @@
+/* Dark mode support
+   Colours below adapt hardcoded HDI / HDI2 form colours to the system
+   colour scheme (light/dark) so the demo stays readable regardless of
+   the user's appearance setting. Cross-platform rules only; macOS/Windows
+   theme-specific rules (e.g. Liquid Glass button sizing) live in
+   styleSheets_mac.css / styleSheets_windows.css. */
+
+@media (prefers-color-scheme: light) {
+	.themedText {
+		stroke: #212121;
+	}
+	.themedTextMuted {
+		stroke: #696969;
+	}
+	.themedLink {
+		stroke: #1E90FF;
+	}
+	.themedPanel {
+		fill: #C0C0C0;
+	}
+	.themedSuccessText {
+		stroke: #009E00;
+	}
+	.themedSuccessButton {
+		stroke: #009E60;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.themedText {
+		stroke: #E0E0E0;
+	}
+	.themedTextMuted {
+		stroke: #A0A0A0;
+	}
+	.themedLink {
+		stroke: #5CB8FF;
+	}
+	.themedPanel {
+		fill: #3A3A3A;
+	}
+	.themedSuccessText {
+		stroke: #33CC33;
+	}
+	.themedSuccessButton {
+		stroke: #33CC88;
+	}
+}

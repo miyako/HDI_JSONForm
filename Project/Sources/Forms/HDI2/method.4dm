@@ -1,3 +1,4 @@
+//%attributes = {"invisible":true}
 Case of 
 		
 	: (Form event code:C388=On Load:K2:1)
@@ -12,8 +13,8 @@ Case of
 		
 		
 		If (FORM Get current page:C276=3)  //Info
-			OBJECT Get pointer:C1124(Object named:K67:5; "varTitle")->:="本当によろしいですか?"
-			OBJECT Get pointer:C1124(Object named:K67:5; "varSubTitle")->:="ボタンをクリックするとダイアログが閉じます。"
+			OBJECT Get pointer:C1124(Object named:K67:5; "varTitle")->:=Localized string("HDI2_InfoTitle")
+			OBJECT Get pointer:C1124(Object named:K67:5; "varSubTitle")->:=Localized string("HDI2_InfoSubTitle")
 		End if 
 		
 		If ((FORM Get current page:C276>1) & (FORM Get current page:C276<4))
