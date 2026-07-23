@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file datatype="plaintext" original="Project/Sources" source-language="en" target-language="ja">
+  <file datatype="plaintext" original="Project/Sources" source-language="en" target-language="en">
     <body>
 
       <!-- Menus -->
       <trans-unit id="MenuItemDemo" resname="MenuItemDemo">
         <source>Demo</source>
-        <target>デモ</target>
+        <target>Demo</target>
       </trans-unit>
 
       <!-- Startup dialog (00_Start.4dm) -->
       <trans-unit id="HDI_Title" resname="HDI_Title">
         <source>How do you handle forms dynamically?</source>
-        <target>フォームを動的に扱うの？</target>
+        <target>How do you handle forms dynamically?</target>
       </trans-unit>
       <trans-unit id="HDI_Info" resname="HDI_Info">
         <source>Dynamic Forms</source>
-        <target>ダイナミック フォーム</target>
+        <target>Dynamic Forms</target>
       </trans-unit>
       <trans-unit id="BtnClose" resname="BtnClose">
         <source>Close</source>
-        <target>閉じる</target>
+        <target>Close</target>
       </trans-unit>
       <trans-unit id="ErrorViewProMain" resname="ErrorViewProMain">
         <source>Sorry, this "How do I" (HDI) example demonstrates a 4D View Pro feature.</source>
-        <target>申し訳ありません。この "How do I" (HDI) サンプルは 4D View Pro の機能を使用しています。</target>
+        <target>Sorry, this "How do I" (HDI) example demonstrates a 4D View Pro feature.</target>
       </trans-unit>
       <trans-unit id="ErrorViewProSub" resname="ErrorViewProSub">
         <source>You must have a valid 4D View Pro license to continue.</source>
-        <target>続行するには有効な 4D View Pro ライセンスが必要です。</target>
+        <target>You must have a valid 4D View Pro license to continue.</target>
       </trans-unit>
       <trans-unit id="ErrorWriteProMain" resname="ErrorWriteProMain">
         <source>Sorry, this "How do I" (HDI) example demonstrates a 4D Write Pro feature.</source>
-        <target>申し訳ありません。この "How do I" (HDI) サンプルは 4D Write Pro の機能を使用しています。</target>
+        <target>Sorry, this "How do I" (HDI) example demonstrates a 4D Write Pro feature.</target>
       </trans-unit>
       <trans-unit id="ErrorWriteProSub" resname="ErrorWriteProSub">
         <source>You must have a valid 4D Write Pro license to continue.</source>
-        <target>続行するには有効な 4D Write Pro ライセンスが必要です。</target>
+        <target>You must have a valid 4D Write Pro license to continue.</target>
       </trans-unit>
 
       <!-- Work Area (automatic form localisation, matched by object name) -->
@@ -44,15 +44,15 @@
         <group resname="HDI">
           <trans-unit id="1" resname="BtnDemo">
             <source>Demo</source>
-            <target>スタート</target>
+            <target>Demo</target>
           </trans-unit>
           <trans-unit id="2" resname="TxtVersion">
             <source>{version} and above</source>
-            <target>{version} 以降...</target>
+            <target>{version} and above</target>
           </trans-unit>
           <trans-unit id="3" resname="labelVersion">
             <source>Version:</source>
-            <target>バージョン:</target>
+            <target>Version:</target>
           </trans-unit>
           <trans-unit id="4" resname="labelBlog">
             <source>Blog:</source>
@@ -60,7 +60,7 @@
           </trans-unit>
           <trans-unit id="5" resname="labelInfo">
             <source>Info:</source>
-            <target>概要:</target>
+            <target>Info:</target>
           </trans-unit>
           <trans-unit id="6" resname="txtTitle">
             <source>• title •</source>
@@ -68,24 +68,25 @@
           </trans-unit>
           <trans-unit id="7" resname="Text">
             <source>How do I…</source>
-            <target>どうやって...</target>
+            <target>How do I…</target>
           </trans-unit>
           <trans-unit id="8" resname="ErrorMainText">
             <source>Sorry, this "How do I" (HDI) example must
 be used with a newer version of 4D
 ({version} and above)</source>
-            <target>申し訳ありません。この"How do I..." (HDI) サンプルは、より新しいバージョンの4D（{version} 以降）で開く必要があります。</target>
+            <target>Sorry, this "How do I" (HDI) example must
+be used with a newer version of 4D
+({version} and above)</target>
           </trans-unit>
           <trans-unit id="9" resname="ErrorSubText">
             <source>Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
-            <target>このHDIをデザインモードで開かないでください。
-開いてしまった場合、フォームやメソッドが不完全になってしまう恐れがあります。</target>
+            <target>Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</target>
           </trans-unit>
         </group>
         <group resname="HDI2">
           <trans-unit id="1" resname="btnHelloWorld">
             <source>Load in subform</source>
-            <target>サブフォームにロード</target>
+            <target>Load in subform</target>
           </trans-unit>
           <trans-unit id="2" resname="infoText">
             <source>text</source>
@@ -97,7 +98,7 @@ be used with a newer version of 4D
           </trans-unit>
           <trans-unit id="4" resname="Button1">
             <source>Open dialog</source>
-            <target>ダイアログを開く</target>
+            <target>Open dialog</target>
           </trans-unit>
           <trans-unit id="5" resname="Text">
             <source>title:</source>
@@ -109,15 +110,15 @@ be used with a newer version of 4D
           </trans-unit>
           <trans-unit id="7" resname="btnOpenListForm">
             <source>Open dialog</source>
-            <target>ダイアログを開く</target>
+            <target>Open dialog</target>
           </trans-unit>
           <trans-unit id="8" resname="btnOpenOutputJSON">
             <source>Open OutputForm.json file</source>
-            <target>OutputForm.json ファイルを開く</target>
+            <target>Open OutputForm.json file</target>
           </trans-unit>
           <trans-unit id="9" resname="btnOpenInputJSON">
             <source>Open InputForm.json file</source>
-            <target>InputForm.json ファイルを開く</target>
+            <target>Open InputForm.json file</target>
           </trans-unit>
         </group>
       </group>
