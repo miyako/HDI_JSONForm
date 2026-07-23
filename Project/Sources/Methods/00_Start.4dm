@@ -10,7 +10,7 @@ If (Count parameters:C259=0)
 	WINDOW LIST($windows)
 	
 	var $i; $window : Integer
-	For ($i; 1; Size of array:C267($windows))
+	For ($i; 1; Size of array($windows))
 		$window:=$windows{$i}
 		If (Window process($window)=1) && (Get window title($window)=$splashWindowTitle)
 			var $x; $y; $bottom; $right : Integer
