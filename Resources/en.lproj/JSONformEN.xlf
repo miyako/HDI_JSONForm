@@ -39,6 +39,16 @@
         <target>You must have a valid 4D Write Pro license to continue.</target>
       </trans-unit>
 
+      <!-- HDI2 form method (On Page Change, Info page) -->
+      <trans-unit id="HDI2_InfoTitle" resname="HDI2_InfoTitle">
+        <source>Are you sure?</source>
+        <target>Are you sure?</target>
+      </trans-unit>
+      <trans-unit id="HDI2_InfoSubTitle" resname="HDI2_InfoSubTitle">
+        <source>Clicking the button will close the dialog.</source>
+        <target>Clicking the button will close the dialog.</target>
+      </trans-unit>
+
       <!-- Work Area (automatic form localisation, matched by object name) -->
       <group resname="[ProjectForm]">
         <group resname="HDI">
