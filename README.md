@@ -29,8 +29,8 @@ Actual per-session token usage, pulled from Copilot session records.
 
 ## Screenshots
 
-<img width="980" height="752" alt="Screenshot 2026-07-23 at 17 48 28" src="https://github.com/user-attachments/assets/3171be3d-a07d-4fb0-abb4-63080f90deed" />
-<img width="980" height="752" alt="Screenshot 2026-07-23 at 17 48 21" src="https://github.com/user-attachments/assets/732e4d31-24ba-4439-b9f6-d97bcd9b595f" />
-<img width="980" height="752" alt="Screenshot 2026-07-23 at 17 48 16" src="https://github.com/user-attachments/assets/5772f99c-4e3d-423b-91e9-ac631859cbc9" />
-<img width="980" height="752" alt="Screenshot 2026-07-23 at 17 48 10" src="https://github.com/user-attachments/assets/eab5ddd1-ffb9-431b-a0fc-d8f52a80b2c6" />
 <img width="724" height="592" alt="Screenshot 2026-07-23 at 17 48 07" src="https://github.com/user-attachments/assets/18e88dfb-8980-4bee-b8b7-90efe583f530" />
+<img width="980" height="752" alt="Screenshot 2026-07-23 at 17 48 10" src="https://github.com/user-attachments/assets/eab5ddd1-ffb9-431b-a0fc-d8f52a80b2c6" />
+<img width="980" height="752" alt="Screenshot 2026-07-23 at 17 48 16" src="https://github.com/user-attachments/assets/5772f99c-4e3d-423b-91e9-ac631859cbc9" />
+<img width="980" height="752" alt="Screenshot 2026-07-23 at 17 48 21" src="https://github.com/user-attachments/assets/732e4d31-24ba-4439-b9f6-d97bcd9b595f" />
+<img width="980" height="752" alt="Screenshot 2026-07-23 at 17 48 28" src="https://github.com/user-attachments/assets/3171be3d-a07d-4fb0-abb4-63080f90deed" />
