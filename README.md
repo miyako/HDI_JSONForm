@@ -28,7 +28,7 @@ Actual per-session token usage, pulled from Copilot session records.
 |---------|--------|----------|-------------:|--------------:|------:|
 | 4d project migration | `miyako-4d-project-migration` | Claude Sonnet 5 | 10,357,880 | 80,038 | 98 |
 | Move Copilot instruction files to the correct path | `miyako-fix-instruction-paths` | Claude Opus 4.6 | 200,454 | 1,061 | 6 |
-| HDI full modernisation | `miyako-hdi-full-modernisation` | Claude Sonnet 5 | 8,785,512 | 43,888 | 65 |
-| **Total** | | | **19,343,846** | **124,987** | **169** |
+| HDI full modernisation | `miyako-hdi-full-modernisation` | Claude Sonnet 5 | 18,668,837 | 76,466 | 137 |
+| **Total** | | | **29,227,171** | **157,565** | **241** |
 
 ## Screenshots
